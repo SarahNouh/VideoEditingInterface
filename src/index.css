@@ -1,13 +1,6 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
+/**
+ * @Author: sarahnouh
+ * @Date:   1985-10-26T10:15:00+02:00
+ * @Last modified by:   sarahnouh
+ * @Last modified time: 2019-06-11T23:30:58+02:00
+ */
