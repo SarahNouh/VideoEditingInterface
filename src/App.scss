@@ -1,7 +1,7 @@
 // @Author: sarahnouh
 // @Date:   2019-06-10T18:32:07+02:00
 // @Last modified by:   sarahnouh
-// @Last modified time: 2019-06-12T02:18:19+02:00
+// @Last modified time: 2019-06-12T02:55:40+02:00
 @import "~bootstrap/scss/bootstrap.scss";
 .darkblue-header {
   background-color: #152b39;
@@ -10,7 +10,7 @@
 
 .orange-sidebar {
   background-color: #e2631c;
-  @include media-breakpoint-down(lg) {
+  @include media-breakpoint-down(md) {
     height: 100vh;
   }
   @include media-breakpoint-down(sm) {
@@ -60,8 +60,8 @@
 
 .start-rec {
   position: absolute;
-  left: 10%;
-  bottom: 10%;
+  left: 3%;
+  bottom: 5%;
   width: 6%;
 }
 
@@ -79,8 +79,8 @@
 }
 .rec-items {
   position: absolute;
-  top: 15%;
-  left: 3%;
+  top: 12%;
+  left: 8%;
   width: 100%;
   .rec-icon {
     position: absolute;
@@ -103,4 +103,13 @@
       font-size: 1.8em;
     }
   }
+}
+
+.frame {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 70%;
+  width: 100%;
 }

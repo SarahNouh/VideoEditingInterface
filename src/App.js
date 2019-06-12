@@ -2,7 +2,7 @@
  * @Author: sarahnouh
  * @Date:   1985-10-26T10:15:00+02:00
  * @Last modified by:   sarahnouh
- * @Last modified time: 2019-06-12T02:14:51+02:00
+ * @Last modified time: 2019-06-12T02:50:17+02:00
  */
 
 import React from "react";
@@ -11,7 +11,7 @@ import rec_icon from "./images/rec_icon.png";
 import start_rec from "./images/start_rec.png";
 import thumbnail from "./images/thumbnail.png";
 import focus from "./images/focus.png";
-import frame from "./images/frame.png";
+import frame from "./images/frame2.png";
 import "./App.scss";
 
 function App() {
@@ -26,6 +26,7 @@ function App() {
             <div className="col-12">
               <div className="video-image-container">
                 <img className="video-img" src={videoImg} alt="" />
+                <img className="frame" src={frame} alt="" />
                 <img className="start-rec" src={start_rec} alt="" />
                 <img className="focus" src={focus} alt="" />
                 <div className="rec-items">
