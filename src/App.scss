@@ -1,7 +1,7 @@
 // @Author: sarahnouh
 // @Date:   2019-06-10T18:32:07+02:00
 // @Last modified by:   sarahnouh
-// @Last modified time: 2019-06-12T02:55:40+02:00
+// @Last modified time: 2019-06-12T03:04:03+02:00
 @import "~bootstrap/scss/bootstrap.scss";
 .darkblue-header {
   background-color: #152b39;
@@ -73,9 +73,6 @@
   top: 50%;
   transform: translateY(-50%);
   width: 10%;
-  @include media-breakpoint-down(md) {
-    width: 20%;
-  }
 }
 .rec-items {
   position: absolute;
